@@ -4,7 +4,7 @@ I’m working on **V-IRAL**, a bilingual Flutter app designed to flip the script
 
 **This repo** is a small, runnable slice of that app focused on **ElevenLabs** text-to-speech: API in use, cached audio, simple **English / German** UI. It’s mainly so I’ve engaged with TTS and voice UX in a real product context, not to showcase engineering depth.
 
-*Implementation leaned on AI coding tools.*
+*Implementation relied on AI coding tools.*
 
 ## Screenshots
 
