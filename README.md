@@ -2,12 +2,23 @@
 
 Extract from **V-IRAL**, my Flutter app. This repo only contains the **ElevenLabs TTS** piece: HTTP client, `eleven_multilingual_v2`, MP3 to disk with a **SHA256 cache key** (same line + voice + model + settings → same file, no double billing), and playback with **just_audio**. On top of that there’s a **small UI**: pulsing help bubble → full-screen overlay with a custom speech-bubble shape and DE/EN strings.
 
-The full app is **not** here — it’s Flutter + Kotlin where needed, bilingual UI, and other features I’m keeping private. This folder is what I’m comfortable open-sourcing for a technical look at the voice integration.
+The full app is **not** here — it’s Flutter + Kotlin where needed, bilingual UI, and other features I’m keeping private. This folder is what I’m comfortable open-sourcing for a technical look at the voice integration. The wider architecture and product side I’m happy to talk through in a normal conversation — that stuff doesn’t all need to sit in a public repository.
 
 ## Screenshots
 
-PNG filenames and how to capture them: [`docs/screenshots/README.md`](docs/screenshots/README.md).  
-Until those files exist in the repo, the images below won’t load.
+Filenames and what to capture: [`docs/screenshots/README.md`](docs/screenshots/README.md).
+
+**Upload (same workflow as any other file change):** save the PNGs into `docs/screenshots/` on your machine (`01-main-bubble.png`, `02-overlay-tts.png`, …), then from the repo root:
+
+```bash
+git add docs/screenshots/*.png
+git commit -m "Add README screenshots"
+git push
+```
+
+You can also drop the files there in Explorer or your editor, then run those three commands. After `push`, refresh the GitHub repo page — the `<img>` tags below will resolve.
+
+Until the PNGs are committed, the images below stay broken — that’s expected.
 
 <p align="center">
   <img src="docs/screenshots/01-main-bubble.png" width="280" alt="Main screen with pulsing tutorial bubble" />
