@@ -21,7 +21,7 @@ Until those files exist in the repo, the images below won’t load.
   <img src="docs/screenshots/04-tab-b.png" width="280" alt="Second tab with its own bubble" />
 </p>
 
-Optional GIF: `docs/screenshots/demo-bubble-tap.gif` — add an `<img>` in this section if you use one.
+Optional GIF: `docs/screenshots/demo-bubble-tap.gif` — can be linked here the same way as the PNGs.
 
 ## Where the code lives
 
