@@ -1,4 +1,4 @@
-# V-IRAL — ElevenLabs slice (Flutter)
+# V-IRAL — ElevenLabs slice
 
 I’m working on **V-IRAL**, a bilingual Flutter app designed to flip the script on screen time. Instead of just scrolling, kids complete short learning missions and quizzes to earn time in their favorite apps. The full project mixes Flutter and native Android for system-level gating; I’m keeping that core logic private for now.
 
