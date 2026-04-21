@@ -4,6 +4,10 @@ I’m working on **V-IRAL**, a bilingual Flutter app designed to flip the script
 
 This repo is a **standalone slice** focused on **ElevenLabs**: POST to the text-to-speech API (`eleven_multilingual_v2`), cache the MP3 locally behind a SHA-256 key built from the text, voice id, model, and voice settings — same inputs, same file, so it replays from disk instead of burning API credits. There’s a small UI on top: pulsing speech bubble, full-screen overlay, comic-style bubble layout, **English and German**. Playback uses **`just_audio`**.
 
+## Colophon
+
+I used AI-assisted development tools (Claude, Cursor, and similar) to move faster on implementation. **Architecture, ElevenLabs integration, and product logic are mine** — I made the calls on structure, APIs, and behavior.
+
 ## Screenshots
 
 Left to right: main screen, mission with bubble, mission with overlay open.
