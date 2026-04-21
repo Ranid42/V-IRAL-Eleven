@@ -6,9 +6,7 @@ The full app is **not** here — it’s Flutter + Kotlin where needed, bilingual
 
 ## Screenshots
 
-Story: main → mission with bubble → mission with overlay open. Filenames / retakes: [`docs/screenshots/README.md`](docs/screenshots/README.md).
-
-**Replace images later:** overwrite the PNGs in `docs/screenshots/`, then `git add docs/screenshots/*.png`, `git commit`, `git push`.
+Main → mission (bubble) → mission (overlay open). To swap or re-export PNGs, filenames and git steps live in [`docs/screenshots/README.md`](docs/screenshots/README.md).
 
 <p align="center">
   <img src="docs/screenshots/01-main-bubble.png" width="260" alt="Main screen: help bubble" />

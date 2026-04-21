@@ -18,12 +18,12 @@ In the **trimmed demo app** in this repo, “main” ≈ first tab, “mission�
 - **API key:** For `03-mission-overlay.png`, a quick run with `--dart-define=ELEVENLABS_API_KEY=...` avoids a “voice unavailable” banner in the shot (optional).
 - **Resolution:** Full phone or tall crop; README scales to ~260px wide each.
 
-## After saving
+## After adding or replacing PNGs
+
+From the repo root:
 
 ```bash
 git add docs/screenshots/*.png
-git commit -m "Add README screenshots"
+git commit -m "Update README screenshots"
 git push
 ```
-
-Until these three files exist in git, the images in the main README 404 on GitHub — expected.
