@@ -6,7 +6,7 @@ The full app is **not** here — it’s Flutter + Kotlin where needed, bilingual
 
 ## Screenshots
 
-Main → mission (bubble) → mission (overlay open). To swap or re-export PNGs, filenames and git steps live in [`docs/screenshots/README.md`](docs/screenshots/README.md).
+Left to right: main screen, mission with bubble, mission with overlay open.
 
 <p align="center">
   <img src="docs/screenshots/01-main-bubble.png" width="260" alt="Main screen: help bubble" />
@@ -15,8 +15,6 @@ Main → mission (bubble) → mission (overlay open). To swap or re-export PNGs,
   &nbsp;
   <img src="docs/screenshots/03-mission-overlay.png" width="260" alt="Mission screen: overlay / speech bubble open" />
 </p>
-
-Optional GIF: `docs/screenshots/demo-bubble-tap.gif` — can be linked here the same way as the PNGs.
 
 ## Where the code lives
 
@@ -55,4 +53,4 @@ In the demo: **DE/EN** in the app bar switches strings (and which env voice id w
 
 ## License
 
-Portfolio / sample — add a `LICENSE` if you need something explicit.
+No formal license file — treat as a personal code sample unless you add one.

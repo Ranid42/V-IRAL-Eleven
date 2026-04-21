@@ -1,6 +1,6 @@
-# Screenshots for the GitHub README
+# Screenshots (`docs/screenshots/`)
 
-Save **exactly three** PNGs in this folder (`docs/screenshots/`) with these names so the root `README.md` picks them up.
+Three PNGs, fixed names — referenced from the root `README.md`.
 
 ## The three shots (story order)
 

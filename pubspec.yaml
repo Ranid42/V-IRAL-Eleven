@@ -1,7 +1,6 @@
 name: elevenlabs_voice_showcase
 description: >
-  Standalone Flutter demo: ElevenLabs TTS + contextual voice bubbles with
-  disk cache. Extracted for portfolio / job applications (no full app logic).
+  V-IRAL extract: ElevenLabs TTS, help bubbles, on-disk MP3 cache, DE/EN.
 publish_to: 'none'
 
 # The following defines the version and build number for your application.
