@@ -2,11 +2,9 @@
 
 I’m working on **V-IRAL**, a bilingual Flutter app designed to flip the script on screen time. Instead of just scrolling, kids complete short learning missions and quizzes to earn time in their favorite apps. The full project mixes Flutter and native Android for system-level gating; I’m keeping that core logic private for now.
 
-This repo is a **standalone slice** focused on **ElevenLabs**: POST to the text-to-speech API (`eleven_multilingual_v2`), cache the MP3 locally behind a SHA-256 key built from the text, voice id, model, and voice settings — same inputs, same file, so it replays from disk instead of burning API credits. There’s a small UI on top: pulsing speech bubble, full-screen overlay, comic-style bubble layout, **English and German**. Playback uses **`just_audio`**.
+**This repo** is a small, runnable slice of that app focused on **ElevenLabs** text-to-speech: API in use, cached audio, simple **English / German** UI. It’s mainly so I’ve engaged with TTS and voice UX in a real product context, not to showcase engineering depth.
 
-## Colophon
-
-I’m **not** a trained programmer — I’m learning as I go. **V-IRAL** and this slice are real things I wanted to exist: how the app should feel, what the voice feature should do, and how it ties into the rest of the product. The actual coding is overwhelmingly **AI-assisted** (Claude, Cursor, and similar): I steer goals, ask for changes, test on device, and try to understand what landed. Don’t read this repo as proof of senior engineering skill; read it as proof I can **ship a working integration** with the right tools and persistence.
+*Implementation leaned on AI coding tools.*
 
 ## Screenshots
 
