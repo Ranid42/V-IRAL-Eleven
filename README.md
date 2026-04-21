@@ -6,19 +6,9 @@ The full app is **not** here — it’s Flutter + Kotlin where needed, bilingual
 
 ## Screenshots
 
-Filenames and what to capture: [`docs/screenshots/README.md`](docs/screenshots/README.md).
+Story: main → mission with bubble → mission with overlay open. Filenames / retakes: [`docs/screenshots/README.md`](docs/screenshots/README.md).
 
-**Upload:** save exactly these three PNGs into `docs/screenshots/`, then from the repo root:
-
-```bash
-git add docs/screenshots/*.png
-git commit -m "Add README screenshots"
-git push
-```
-
-You can also drop the files there in Explorer or your editor, then run those three commands. After `push`, refresh the GitHub repo page — the `<img>` tags below will resolve.
-
-Until the PNGs are committed, the images below stay broken — that’s expected.
+**Replace images later:** overwrite the PNGs in `docs/screenshots/`, then `git add docs/screenshots/*.png`, `git commit`, `git push`.
 
 <p align="center">
   <img src="docs/screenshots/01-main-bubble.png" width="260" alt="Main screen: help bubble" />
