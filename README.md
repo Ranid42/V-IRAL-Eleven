@@ -1,8 +1,8 @@
 # V-IRAL — ElevenLabs slice (Flutter)
 
-**V-IRAL** is a bilingual Flutter app I’m building: short missions around topics, checks on what you watched, then quizzes and rewards that translate into a bit of screen time in the apps you’re actually trying to use. The full product is Flutter plus native Android where the platform demands it; that larger codebase stays private.
+I’m working on **V-IRAL**, a bilingual Flutter app designed to flip the script on screen time. Instead of just scrolling, kids complete short learning missions and quizzes to earn time in their favorite apps. The full project mixes Flutter and native Android for system-level gating; I’m keeping that core logic private for now.
 
-**This repo** is just the **ElevenLabs** part cut out so it’s easy to read on its own. It POSTs to the text-to-speech API (`eleven_multilingual_v2`), saves the MP3, and names the cache file from a SHA-256 hash of the text, voice id, model, and voice settings — same inputs, same file, no second API call. Audio plays through `just_audio`. On top there’s a thin UI: pulsing help bubble, full-screen overlay, hand-drawn speech-bubble shape, German and English strings.
+This repo is a **standalone slice** focused on **ElevenLabs**: POST to the text-to-speech API (`eleven_multilingual_v2`), cache the MP3 locally behind a SHA-256 key built from the text, voice id, model, and voice settings — same inputs, same file, so it replays from disk instead of burning API credits. There’s a small UI on top: pulsing speech bubble, full-screen overlay, comic-style bubble layout, **English and German**. Playback uses **`just_audio`**.
 
 ## Screenshots
 
