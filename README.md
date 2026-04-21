@@ -1,8 +1,8 @@
 # V-IRAL — ElevenLabs slice (Flutter)
 
-Extract from **V-IRAL**, my Flutter app. This repo only contains the **ElevenLabs TTS** piece: HTTP client, `eleven_multilingual_v2`, MP3 to disk with a **SHA256 cache key** (same line + voice + model + settings → same file, no double billing), and playback with **just_audio**. On top of that there’s a **small UI**: pulsing help bubble → full-screen overlay with a custom speech-bubble shape and DE/EN strings.
+**V-IRAL** is a bilingual Flutter app I’m building: short missions around topics, checks on what you watched, then quizzes and rewards that translate into a bit of screen time in the apps you’re actually trying to use. The full product is Flutter plus native Android where the platform demands it; that larger codebase stays private.
 
-The full app is **not** here — Flutter + Kotlin where needed, bilingual UI, and other parts I’m keeping private. This repo is only the voice slice I’m fine publishing as code.
+**This repo** is just the **ElevenLabs** part cut out so it’s easy to read on its own. It POSTs to the text-to-speech API (`eleven_multilingual_v2`), saves the MP3, and names the cache file from a SHA-256 hash of the text, voice id, model, and voice settings — same inputs, same file, no second API call. Audio plays through `just_audio`. On top there’s a thin UI: pulsing help bubble, full-screen overlay, hand-drawn speech-bubble shape, German and English strings.
 
 ## Screenshots
 
