@@ -6,7 +6,7 @@ This repo is a **standalone slice** focused on **ElevenLabs**: POST to the text-
 
 ## Colophon
 
-I used AI-assisted development tools (Claude, Cursor, and similar) to move faster on implementation. **Architecture, ElevenLabs integration, and product logic are mine** — I made the calls on structure, APIs, and behavior.
+I’m **not** a trained programmer — I’m learning as I go. **V-IRAL** and this slice are real things I wanted to exist: how the app should feel, what the voice feature should do, and how it ties into the rest of the product. The actual coding is overwhelmingly **AI-assisted** (Claude, Cursor, and similar): I steer goals, ask for changes, test on device, and try to understand what landed. Don’t read this repo as proof of senior engineering skill; read it as proof I can **ship a working integration** with the right tools and persistence.
 
 ## Screenshots
 
