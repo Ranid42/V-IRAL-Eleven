@@ -8,7 +8,7 @@ The full app is **not** here — it’s Flutter + Kotlin where needed, bilingual
 
 Filenames and what to capture: [`docs/screenshots/README.md`](docs/screenshots/README.md).
 
-**Upload (same workflow as any other file change):** save the PNGs into `docs/screenshots/` on your machine (`01-main-bubble.png`, `02-overlay-tts.png`, …), then from the repo root:
+**Upload:** save exactly these three PNGs into `docs/screenshots/`, then from the repo root:
 
 ```bash
 git add docs/screenshots/*.png
@@ -21,15 +21,11 @@ You can also drop the files there in Explorer or your editor, then run those thr
 Until the PNGs are committed, the images below stay broken — that’s expected.
 
 <p align="center">
-  <img src="docs/screenshots/01-main-bubble.png" width="280" alt="Main screen with pulsing tutorial bubble" />
-  &nbsp;&nbsp;
-  <img src="docs/screenshots/02-overlay-tts.png" width="280" alt="Speech-bubble overlay with TTS UI" />
-</p>
-
-<p align="center">
-  <img src="docs/screenshots/03-language-toggle.png" width="280" alt="German UI and language toggle" />
-  &nbsp;&nbsp;
-  <img src="docs/screenshots/04-tab-b.png" width="280" alt="Second tab with its own bubble" />
+  <img src="docs/screenshots/01-main-bubble.png" width="260" alt="Main screen: help bubble" />
+  &nbsp;
+  <img src="docs/screenshots/02-mission-bubble.png" width="260" alt="Mission screen: bubble visible" />
+  &nbsp;
+  <img src="docs/screenshots/03-mission-overlay.png" width="260" alt="Mission screen: overlay / speech bubble open" />
 </p>
 
 Optional GIF: `docs/screenshots/demo-bubble-tap.gif` — can be linked here the same way as the PNGs.
