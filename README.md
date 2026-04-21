@@ -1,6 +1,6 @@
 # V-IRAL — ElevenLabs slice
 
-I’m working on **V-IRAL**, a bilingual Flutter app designed to flip the script on screen time. Instead of just scrolling, kids complete short learning missions and quizzes to earn time in their favorite apps. The full project mixes Flutter and native Android for system-level gating; I’m keeping that core logic private for now.
+I’m working on **V-IRAL**, a bilingual app designed to flip the script on screen time. Instead of just scrolling, kids complete short learning missions and quizzes to earn time in their favorite apps. The full project mixes Flutter and native Android for system-level gating; I’m keeping that core logic private for now.
 
 **This repo** is a small, runnable slice of that app focused on **ElevenLabs** text-to-speech: API in use, cached audio, simple **English / German** UI. It’s mainly so I’ve engaged with TTS and voice UX in a real product context, not to showcase engineering depth.
 
